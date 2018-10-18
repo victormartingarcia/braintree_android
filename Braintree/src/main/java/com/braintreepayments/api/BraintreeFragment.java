@@ -736,7 +736,8 @@ public class BraintreeFragment extends BrowserSwitchFragment {
     @VisibleForTesting
     protected void flushCallbacks() {
         synchronized (mCallbackQueue) {
-            for (QueuedCallback callback : mCallbackQueue) {
+            Queue<QueuedCallback> queue = new ArrayDeque<>(mCallbackQueue);
+            for (QueuedCallback callback : queue) {
                 if (callback.shouldRun()) {
                     callback.run();
                     mCallbackQueue.remove(callback);
