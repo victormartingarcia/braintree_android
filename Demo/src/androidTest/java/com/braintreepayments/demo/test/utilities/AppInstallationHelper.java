@@ -7,9 +7,7 @@ import android.util.Log;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import static android.support.test.InstrumentationRegistry.getTargetContext;
-import static junit.framework.Assert.assertFalse;
-import static junit.framework.Assert.assertTrue;
+import static androidx.test.InstrumentationRegistry.getTargetContext;
 import static org.junit.Assume.assumeFalse;
 import static org.junit.Assume.assumeTrue;
 

@@ -2,7 +2,7 @@ package com.paypal.android.sdk.onetouch.core;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.MainThread;
+import androidx.annotation.MainThread;
 
 import com.paypal.android.sdk.data.collector.PayPalDataCollector;
 import com.paypal.android.sdk.onetouch.core.base.ContextInspector;
@@ -17,8 +17,6 @@ import com.paypal.android.sdk.onetouch.core.network.PayPalHttpClient;
 import com.paypal.android.sdk.onetouch.core.sdk.AppSwitchHelper;
 import com.paypal.android.sdk.onetouch.core.sdk.BrowserSwitchHelper;
 import com.paypal.android.sdk.onetouch.core.sdk.PendingRequest;
-
-import java.util.Collections;
 
 /**
  * Central class for One Touch functionality.

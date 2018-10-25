@@ -1,11 +1,10 @@
 package com.braintreepayments.demo.test.utilities;
 
-import android.support.test.uiautomator.Configurator;
-import android.support.test.uiautomator.UiObjectNotFoundException;
+import androidx.test.uiautomator.Configurator;
+import androidx.test.uiautomator.UiObjectNotFoundException;
 
 import static com.lukekorth.deviceautomator.AutomatorAction.click;
 import static com.lukekorth.deviceautomator.DeviceAutomator.onDevice;
-import static com.lukekorth.deviceautomator.UiObjectMatcher.withText;
 import static com.lukekorth.deviceautomator.UiObjectMatcher.withText;
 
 public class UiTestActions {
