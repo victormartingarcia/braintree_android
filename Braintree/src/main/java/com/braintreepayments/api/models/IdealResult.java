@@ -6,8 +6,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
+ * @deprecated Use {@link com.braintreepayments.api.LocalPayment}
  * {@link IdealResult} representing an iDEAL bank payment.
  */
+@Deprecated
 public class IdealResult extends BraintreePaymentResult {
 
     private String mId;

@@ -82,7 +82,7 @@ allprojects {
         compileSdkVersion = 28
         minSdkVersion = 16
         targetSdkVersion = 28
-        versionCode = 92
+        versionCode = 94
         versionName = version
     }
 }

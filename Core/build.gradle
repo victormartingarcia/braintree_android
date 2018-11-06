@@ -24,7 +24,7 @@ android {
 
 dependencies {
     compileOnly 'androidx.annotation:annotation:1.0.0'
-    api 'com.braintreepayments:browser-switch:0.1.6'
+    api 'com.braintreepayments:browser-switch:0.1.7'
 
     androidTestImplementation 'androidx.test:runner:1.1.0-beta02'
     androidTestImplementation 'com.google.dexmaker:dexmaker-mockito:1.2'

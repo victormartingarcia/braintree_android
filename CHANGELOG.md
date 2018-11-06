@@ -1,5 +1,14 @@
 # Braintree Android SDK Release Notes
 
+## 2.18.1
+
+* Upgrade browser-switch to 0.1.7 fixes Chrome Custom Tab integration when using Jetifier to use AndroidX
+
+## 2.18.0
+
+* Upgrade Android SDK to 28
+* Fix PayPal JavaDoc
+
 ## 2.17.0
 
 * Local Payments

@@ -2,6 +2,8 @@ package com.paypal.android.sdk.data.collector;
 
 import java.util.HashMap;
 
+import androidx.annotation.NonNull;
+
 /**
  * Used to configuration the PayPalDataCollector request
  */
@@ -34,7 +36,7 @@ public class PayPalDataCollectorRequest {
     /**
      * @param clientMetadataId The desired pairing ID, trimmed to 32 characters.
      */
-    public PayPalDataCollectorRequest setClientMetadataId(String clientMetadataId) {
+    public PayPalDataCollectorRequest setClientMetadataId(@NonNull String clientMetadataId) {
         this.mClientMetadataId = clientMetadataId.substring(0, Math.min(clientMetadataId.length(), 32));;
 
         return this;
