@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    package="com.braintreepayments.demo">
+    package="com.braintreecv1payments.demo">
 
     <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
 
@@ -32,7 +32,7 @@
         <activity android:name=".VisaCheckoutActivity" android:label="@string/visa_checkout_button" />
         <activity android:name=".test.DemoTestActivity"/>
 
-        <activity android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+        <activity android:name="com.braintreecv1payments.api.BraintreeBrowserSwitchActivity"
             android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

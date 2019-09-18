@@ -181,9 +181,9 @@
           "phone",
           "openid"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v3.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.foundation.interapp.presentation.activity.FuturePaymentActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v3.TouchActivity"
       },
       {
         "target": "wallet",
@@ -363,9 +363,9 @@
           "phone",
           "openid"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v2.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.foundation.interapp.presentation.activity.FuturePaymentActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v2.TouchActivity"
       },
       {
         "target": "wallet",
@@ -449,9 +449,9 @@
           "phone",
           "openid"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v1.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.foundation.interapp.presentation.activity.FuturePaymentActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v1.TouchActivity"
       },
       {
         "target": "wallet",
@@ -535,9 +535,9 @@
           "phone",
           "openid"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.lib.authenticator.activity.v1.TouchActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v1.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.lib.authenticator.activity.v1.TouchActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v1.TouchActivity"
       },
       {
         "target": "browser",
@@ -741,9 +741,9 @@
           "zh_US",
           "zh_YE"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v3.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v3.TouchActivity"
       },
       {
         "target": "wallet",
@@ -916,9 +916,9 @@
           "zh_US",
           "zh_YE"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v2.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v2.TouchActivity"
       },
       {
         "target": "wallet",
@@ -1091,9 +1091,9 @@
           "zh_US",
           "zh_YE"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.lib.authenticator.activity.v2.TouchActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v2.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.lib.authenticator.activity.v2.TouchActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v2.TouchActivity"
       },
       {
         "target": "browser",
@@ -1276,9 +1276,9 @@
           "zh_US",
           "zh_YE"
         ],
-        "packages": ["com.paypal.android.p2pmobile"],
-        "component": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity",
-        "intent_action": "com.paypal.android.lib.authenticator.activity.v3.TouchActivity"
+        "packages": ["com.paypalcv1.android.p2pmobile"],
+        "component": "com.paypalcv1.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity",
+        "intent_action": "com.paypalcv1.android.lib.authenticator.activity.v3.TouchActivity"
       },
       {
         "target": "browser",

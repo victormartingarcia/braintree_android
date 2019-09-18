@@ -23,7 +23,7 @@ task :integration_tests do
   output = `adb devices`
   if output.match(/device$/)
     begin
-      `adb uninstall com.paypal.android.p2pmobile > /dev/null`
+      `adb uninstall com.paypalcv1.android.p2pmobile > /dev/null`
       log_listener_pid = fork { exec 'ruby', 'script/log_listener.rb' }
       sh "ruby script/httpsd.rb /tmp/httpsd.pid"
       sh "./gradlew --continue runAllTests connectedAndroidTest -x :TestUtils:connectedAndroidTest"

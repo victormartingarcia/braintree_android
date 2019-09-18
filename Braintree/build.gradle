@@ -128,18 +128,18 @@ artifacts {
 
 apply plugin: 'io.codearte.nexus-staging'
 nexusStaging {
-    packageGroup = "com.braintreepayments"
+    packageGroup = "com.braintreecv1payments"
 }
 
-group = 'com.braintreepayments.api'
+group = 'com.braintreecv1payments.api'
 uploadArchives {
     repositories {
         mavenDeployer {
-            pom.setArtifactId 'braintree'
+            pom.setArtifactId 'braintreecv1'
 
             pom.project {
-                name 'braintree'
-                groupId = 'com.braintreepayments.api'
+                name 'braintreecv1'
+                groupId = 'com.braintreecv1payments.api'
                 version = "${android.defaultConfig.versionName}"
                 description 'This is Braintree\'s Android SDK. Integrate this library to accept payments in your Android app.'
             }

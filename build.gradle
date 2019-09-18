@@ -80,13 +80,13 @@ allprojects {
     }
 
 
-    apply plugin: 'signing'
+    /*apply plugin: 'signing'
     signing {
         required {
             !version.endsWith("SNAPSHOT")  && !version.endsWith("DEVELOPMENT")
         }
         sign configurations.archives
-    }
+    }*/
 
     ext {
         compileSdkVersion = 28

@@ -65,18 +65,18 @@ artifacts {
 
 apply plugin: 'io.codearte.nexus-staging'
 nexusStaging {
-    packageGroup = "com.paypal"
+    packageGroup = "com.paypalcv1cv1"
 }
 
-group = 'com.paypal.android.sdk'
+group = 'com.paypalcv1cv1.android.sdk'
 uploadArchives {
     repositories {
         mavenDeployer {
-            pom.setArtifactId 'paypal-one-touch'
+            pom.setArtifactId 'paypalcv1-one-touch'
 
             pom.project {
-                name 'paypal-one-touch'
-                groupId = 'com.paypal.android.sdk'
+                name 'paypalcv1-one-touch'
+                groupId = 'com.paypalcv1cv1.android.sdk'
                 version = "${android.defaultConfig.versionName}"
                 description 'PayPal SDK for handling app and browser switch based payments.'
             }

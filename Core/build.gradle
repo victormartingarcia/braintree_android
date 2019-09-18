@@ -54,18 +54,18 @@ artifacts {
 
 apply plugin: 'io.codearte.nexus-staging'
 nexusStaging {
-    packageGroup = "com.braintreepayments"
+    packageGroup = "com.braintreecv1payments"
 }
 
-group = 'com.braintreepayments.api'
+group = 'com.braintreecv1payments.api'
 uploadArchives {
     repositories {
         mavenDeployer {
-            pom.setArtifactId 'core'
+            pom.setArtifactId 'corecv1'
 
             pom.project {
-                name 'core'
-                groupId = 'com.braintreepayments.api'
+                name 'corecv1'
+                groupId = 'com.braintreecv1payments.api'
                 version = "${android.defaultConfig.versionName}"
                 description 'Library containing shared components used across Braintree\'s Android SDKs.'
             }

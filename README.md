@@ -12,7 +12,7 @@ Add the dependency in your `build.gradle`:
 
 ```groovy
 dependencies {
-  compile 'com.braintreepayments.api:braintree:2.22.0'
+  compile 'com.braintreecv1payments.api:braintree:2.22.0'
 }
 ```
 
@@ -20,7 +20,7 @@ To use the latest build from the `master` branch use:
 
 ```groovy
 dependencies {
-  compile 'com.braintreepayments.api:braintree:2.21.1-SNAPSHOT'
+  compile 'com.braintreecv1payments.api:braintree:2.21.1-SNAPSHOT'
 }
 ```
 

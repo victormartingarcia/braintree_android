@@ -61,18 +61,18 @@ artifacts {
 
 apply plugin: 'io.codearte.nexus-staging'
 nexusStaging {
-    packageGroup = "com.paypal"
+    packageGroup = "com.paypalcv1cv1"
 }
 
-group = 'com.paypal.android.sdk'
+group = 'com.paypalcv1cv1.android.sdk'
 uploadArchives {
     repositories {
         mavenDeployer {
-            pom.setArtifactId 'data-collector'
+            pom.setArtifactId 'data-collectorcv1'
 
             pom.project {
-                name 'data-collector'
-                groupId = 'com.paypal.android.sdk'
+                name 'data-collectorcv1'
+                groupId = 'com.paypalcv1cv1.android.sdk'
                 version = "${android.defaultConfig.versionName}"
                 description 'Fraud tools for PayPal integrations on Android.'
             }

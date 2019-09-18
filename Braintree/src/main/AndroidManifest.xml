@@ -1,17 +1,17 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.braintreepayments.api">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.braintreecv1payments.api">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application>
-        <activity android:name="com.braintreepayments.api.AndroidPayActivity"
+        <activity android:name="com.braintreecv1payments.api.AndroidPayActivity"
             android:theme="@style/bt_transparent_activity"/>
 
-        <activity android:name="com.braintreepayments.api.GooglePaymentActivity"
+        <activity android:name="com.braintreecv1payments.api.GooglePaymentActivity"
             android:theme="@style/bt_transparent_activity"/>
 
-        <activity android:name="com.braintreepayments.api.threedsecure.ThreeDSecureWebViewActivity"/>
+        <activity android:name="com.braintreecv1payments.api.threedsecure.ThreeDSecureWebViewActivity"/>
 
-        <service android:name="com.braintreepayments.api.internal.AnalyticsIntentService"/>
+        <service android:name="com.braintreecv1payments.api.internal.AnalyticsIntentService"/>
     </application>
 </manifest>

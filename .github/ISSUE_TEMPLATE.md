@@ -5,10 +5,10 @@
 * Android Version and Device: <!-- Example: Motorola Droid Razr Maxx with Android 4.4.2, Samsung S7 with Android 6.0 -->
 * Braintree dependencies: 
 <!-- Examples -->
-<!--  - com.braintreepayments.api:braintree:x.y.z -->
-<!--  - compile 'com.braintreepayments.api:data-collector:2.+' -->
+<!--  - com.braintreecv1payments.api:braintree:x.y.z -->
+<!--  - compile 'com.braintreecv1payments.api:data-collector:2.+' -->
 <!--  - com.braintreepayments.api:visa-checkout:x.y.z-SNAPSHOT -->
-<!--  - com.braintreepayments.api:drop-in:x.y.z -->
+<!--  - com.braintreecv1payments.api:drop-in:x.y.z -->
 
 <!-- NOTE if you are creating an issue related to Drop-in, consider creating the issue in the Drop-in repository (https://github.com/braintree/braintree-android-drop-in/issues) -->
 

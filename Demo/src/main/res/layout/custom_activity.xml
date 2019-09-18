@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="40dp">
 
-        <com.braintreepayments.cardform.view.CardForm
+        <com.braintreecv1payments.cardform.view.CardForm
             android:id="@+id/card_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
             android:labelFor="@+id/sms_code"
             android:visibility="gone">
 
-            <com.braintreepayments.cardform.view.ErrorEditText
+            <com.braintreecv1payments.cardform.view.ErrorEditText
                 style="@style/card_form_field"
                 android:id="@+id/sms_code"
                 android:contentDescription="@string/sms_auth_code"/>
