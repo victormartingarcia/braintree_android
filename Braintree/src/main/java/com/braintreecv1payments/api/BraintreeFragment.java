@@ -49,7 +49,7 @@ import com.braintreecv1payments.api.models.Configuration;
 import com.braintreecv1payments.api.models.PaymentMethodNonce;
 import com.braintreecv1payments.api.models.TokenizationKey;
 import com.braintreecv1payments.api.models.UnionPayCapabilities;
-import com.braintreepayments.browserswitch.BrowserSwitchFragment;
+import com.braintreecv1payments.browserswitch.BrowserSwitchFragment;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;

@@ -1,4 +1,4 @@
-include ':Braintree'
+include ':Braintree', ':browser-switch-release'
 include ':PayPalDataCollector'
 include ':BraintreeDataCollector'
 include ':PayPalOneTouch'

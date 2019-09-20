@@ -39,6 +39,7 @@ dependencies {
     testImplementation 'org.powermock:powermock-api-mockito:1.6.6'
     testImplementation 'org.powermock:powermock-classloading-xstream:1.6.6'
     testImplementation project(':TestUtils')
+    implementation project(path: ':browser-switch-release')
 }
 
 /* maven deploy + signing */
@@ -65,10 +66,10 @@ artifacts {
 
 apply plugin: 'io.codearte.nexus-staging'
 nexusStaging {
-    packageGroup = "com.paypalcv1cv1"
+    packageGroup = "com.paypalcv1"
 }
 
-group = 'com.paypalcv1cv1.android.sdk'
+group = 'com.paypalcv1.android.sdk'
 uploadArchives {
     repositories {
         mavenDeployer {
@@ -76,7 +77,7 @@ uploadArchives {
 
             pom.project {
                 name 'paypalcv1-one-touch'
-                groupId = 'com.paypalcv1cv1.android.sdk'
+                groupId = 'com.paypalcv1.android.sdk'
                 version = "${android.defaultConfig.versionName}"
                 description 'PayPal SDK for handling app and browser switch based payments.'
             }

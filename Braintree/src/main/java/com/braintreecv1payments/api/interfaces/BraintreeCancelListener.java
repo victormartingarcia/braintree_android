@@ -4,7 +4,7 @@ import android.content.Intent;
 
 /**
  * Interface that defines a callback for {@link android.app.Fragment#onActivityResult(int, int, Intent)}
- * cancel events.
+ * cancel events..
  */
 public interface BraintreeCancelListener extends BraintreeListener {
 

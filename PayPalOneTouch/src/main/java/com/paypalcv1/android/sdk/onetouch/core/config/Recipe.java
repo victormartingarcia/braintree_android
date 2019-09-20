@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 
 import com.braintreecv1payments.api.internal.AppHelper;
-import com.braintreepayments.browserswitch.ChromeCustomTabs;
+import com.braintreecv1payments.browserswitch.ChromeCustomTabs;
 import com.paypalcv1.android.sdk.onetouch.core.enums.Protocol;
 import com.paypalcv1.android.sdk.onetouch.core.enums.RequestTarget;
 import com.paypalcv1.android.sdk.onetouch.core.sdk.AppSwitchHelper;
